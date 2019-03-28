@@ -7,7 +7,7 @@ const bodyParser =require('body-parser');
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-app.use(require('./routes/usuario') ) ;
+app.use(require('./routes/index') ) ;
 
 mongoose.connect(process.env.URLDB,
     {useNewUrlParser:true,useCreateIndex:true},
