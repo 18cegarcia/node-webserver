@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d113d22-8b59-4a4c-ba73-a24cc874740f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server/routes/usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/usuario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/routes/usuario.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="88" column="60" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="439">
+                <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -109,14 +122,15 @@
         <option value="$PROJECT_DIR$/server/models/usuario.js" />
         <option value="$PROJECT_DIR$/server/middlewares/autenticacion.js" />
         <option value="$PROJECT_DIR$/server/routes/usuario.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="159" />
-    <option name="width" value="1356" />
-    <option name="height" value="726" />
+    <option name="x" value="1240" />
+    <option name="y" value="53" />
+    <option name="width" value="1346" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,17 +145,6 @@
             <path>
               <item name="07-restServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="07-restServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07-restServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-restServer" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07-restServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-restServer" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,12 +193,12 @@
       <workItem from="1553643167157" duration="3496000" />
       <workItem from="1553664143119" duration="28000" />
       <workItem from="1553725301530" duration="11436000" />
-      <workItem from="1553796902760" duration="2211000" />
+      <workItem from="1553796902760" duration="2998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42795000" />
+    <option name="totallyTimeSpent" value="43582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,7 +213,7 @@
     <frame x="1366" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17501318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17501318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,7 +225,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32979852" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41781548" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41781548" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,7 +373,17 @@
     <entry file="file://$PROJECT_DIR$/server/routes/usuario.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="88" column="60" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="439">
+            <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
