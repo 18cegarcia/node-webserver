@@ -21,15 +21,12 @@ let verificaToken = (req, res, next) => {
     });
 */
 };
-
-
-//Verifica Admin rol
+//Verific Admin rol
 
 let verificaAdminROl = (req, res, next) => {
     let rol = req.role;
-
-    if (rol ==='ADMIN-ROLE') {
-
+    console.log(rol);
+    if (rol === 'ADMIN-ROLE') {
         next();
     }else{
         return res.status(401).json({
