@@ -86,7 +86,7 @@ app.put('/usuario/:id', verificaToken, (req, res) =>{
 
 
 });
-app.delete('/usuario/:id', verificaToken, (req, res)=> {
+app.delete('/usuario/:id', [verificaToken,verificaAdminROl], (req, res)=> {
     let id = req.params.id;
     let cambiaestado ={
         estado:false
